@@ -1,0 +1,55 @@
+@font-face {
+    font-family: 'gameplay';
+    src: url(/font/Gameplay.ttf) format('truetype');
+}
+body{
+    background: url("./images/Group\ 503.png");
+    background-repeat: no-repeat;
+    /* background-size: 1920px px;  */
+    margin-left: 0em;
+    background-size: cover;
+
+}
+
+#firstHeading{
+    position: absolute;
+    left: 40%;
+    top: 20%;
+    font-family: 'gameplay', Fallback, sans-serif;
+    font-size:3.5em;
+    color: #F2EC2A;
+}
+#secondHeading{
+    position: absolute;
+    left: 40%;
+    top: 20.5%;
+    font-family: 'gameplay', Fallback, sans-serif;
+    font-size: 3.5em;
+    color: white;
+}
+
+a{
+    position: absolute;
+    left: 43.5%;
+    top: 63%;
+    border: solid 4px#F2EC2A;
+    padding: 5px 5px ;
+    margin: 5px 5px;
+    text-decoration: none;
+    color: #F2EC2A;
+    background-color: transparent;
+    border-radius: .4em;
+    font-size: 14px;
+    font-family: 'poppins', Fallback, sans-serif;
+    font-weight: bolder;
+    padding: 25px;
+    
+}
+a:hover{
+    color: black;
+    background-color: #F2EC2A;
+}
+div{
+    margin-left: 3em;
+    margin-right: 3em;
+}

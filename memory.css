@@ -1,0 +1,159 @@
+@font-face {
+    font-family: 'gameplay';
+    src: url(/font/Gameplay.ttf) format('truetype');
+}
+
+body {
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 100%;
+    background-color: white;
+    width: 750px;  
+    margin: 0 auto;
+    /* border: 3px solid blue; */
+    padding: 0 2em 1em;
+    background: url("./images/Group\ 503.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+h1 { 
+    font-size: 150%;
+    color: blue;
+    /* margin-bottom: .5em; */
+}
+label {
+    float: left;
+    width: 8em;
+}
+input, select { 
+    width: 10em;
+    margin-right: 1em;
+    margin-bottom: 1em;
+}
+input[type=checkbox] { 
+    width: 2em;
+}
+header p {
+	margin: 0 2em 1em 0;
+}
+#new_game, #player, #high_score, #correct {
+	float: left;
+}
+#cards img {
+    height: 100px;
+    width: 80px;
+    padding-right: 5px;
+    padding-bottom: 3px;
+    float: left; 
+}
+.clear {
+    clear: both;
+}
+
+.hide{
+    visibility: hidden;
+}
+
+#cards div{
+    height: 100px;                 /*  must be same as cards img height */
+    /* overflow: hidden; */
+}
+
+#tabs ul{
+    background-color: transparent;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+#tabs{
+    border: 1px solid blue;
+    
+}
+#tabs ul li a{
+    border: solid 4px#F2EC2A;
+    text-decoration: none;
+    color: #000;
+    background-color: transparent;
+    border-radius: .4em;
+    font-size: 14px;
+    font-family: 'poppins', Fallback, sans-serif;
+    font-weight: bolder;
+    padding: 25px;
+}
+#tabs ul li a:active{
+    background: black;
+    color:#F2EC2A;
+
+}
+#tabs-2 ul{
+    flex-direction: column;
+}
+
+header{
+    font-family: 'gameplay', Fallback, sans-serif;
+    color: white;
+    text-align: center;
+} 
+
+header h1{
+    font-family: 'gameplay', Fallback, sans-serif;
+    font-size:2em;
+    color: #F2EC2A;
+    text-align: center;
+    padding-bottom: 0;
+}
+
+#newgamediv {
+    
+    border: solid 4px#F2EC2A;
+    /* padding: 5px 5px ; */
+    margin: 5px auto;
+    color: #F2EC2A;
+    background-color: transparent;
+    border-radius: .4em;
+    font-size: 14px;
+    font-weight: bolder;
+    padding: 25px 0;
+    width: 220px;
+}
+
+#newgamediv a{
+    /* text-align: center; */
+    color: #F2EC2A;
+    text-decoration: none;
+}
+
+#newgamediv  a:hover{
+    color: black;
+    background-color: #F2EC2A;
+}
+
+
+#newgamediv div{
+    margin-left: 3em;
+    margin-right: 3em;
+}
+
+#firstHeading{
+    position: absolute;
+    left: 40%;
+    top: 20%;
+    font-family: 'gameplay', Fallback, sans-serif;
+    font-size:3.5em;
+    color: #F2EC2A;
+}
+#secondHeading{
+    position: absolute;
+    left: 40%;
+    top: 20.5%;
+    font-family: 'gameplay', Fallback, sans-serif;
+    font-size: 3.5em;
+    color: white;
+}
+
+
+
+
+
+
+
